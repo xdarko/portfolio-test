@@ -1,0 +1,25 @@
+.contact__list {
+	display: inline-block;
+	margin: 0 0 0 150px;
+	padding: 60px 0 0;
+	list-style: none;
+	text-align: center;
+}
+.contact__item {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.contact__text {
+	display: block;
+	font-family: $akashi;
+	color: #fff;
+	font-size: 32px;
+	letter-spacing: 4px;
+}
+.contact__link {
+	display: inline-block;
+	font-family: $orbitron-regular;
+	color: #fff;
+	font-size: 24px;
+	letter-spacing: 2px;
+}

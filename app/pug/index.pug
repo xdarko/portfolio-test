@@ -1,0 +1,70 @@
+extends templates/main.pug
+
+block title
+	title Title
+
+block content
+	.main-wrapper
+		ul.bg-list
+			li.bg-item.bg-item--intro
+			li.bg-item.bg-item--works
+			li.bg-item.bg-item--contact
+		.container
+			header.header
+				.header__title Vadim Postanovkin
+				.header__sub front-end developer
+			main.main-content
+				nav.nav.nav--center
+					ul.nav__list
+						li.nav__item
+							a.nav__link.nav__link--active(href="#intro") Home
+						li.nav__item
+							a.nav__link(href="#works") Works
+						li.nav__item
+							a.nav__link(href="#contact") Contact
+				section.section.works
+					.works__title My works
+					ul.works__list
+						li.works__item
+							.works__item-inner
+								.works__item-title Rubiko
+								.works__item-sub Single page website
+								a.works__item-open(href="https://vadim-pos.github.io/rubiko/dist/" target="_blank") Open
+									svg
+										rect(x="0" y="0" fill="none" width="100%" height="100%")
+								a.works__item-source(href="https://github.com/vadim-pos/rubiko/tree/master/app" target="_blank") Source Code
+						li.works__item
+							.works__item-inner
+								.works__item-title Pingbuller
+								.works__item-sub Single page website
+								a.works__item-open(href="https://vadim-pos.github.io/pingbuller/dist/" target="_blank") Open
+									svg
+										rect(x="0" y="0" fill="none" width="100%" height="100%")
+								a.works__item-source(href="https://github.com/vadim-pos/pingbuller/tree/master/app" target="_blank") Source Code
+						li.works__item
+							.works__item-inner
+								.works__item-title Photobook
+								.works__item-sub Main page
+								a.works__item-open(href="https://vadim-pos.github.io/photobook/dist/" target="_blank") Open
+									svg
+										rect(x="0" y="0" fill="none" width="100%" height="100%")
+								a.works__item-source(href="https://github.com/vadim-pos/photobook/tree/master/app" target="_blank") Source Code
+						li.works__item
+							.works__item-inner
+								.works__item-title Urlaubsglück
+								.works__item-sub Main page
+								a.works__item-open(href="https://vadim-pos.github.io/urlaubsgluck/dist/" target="_blank") Open
+									svg
+										rect(x="0" y="0" fill="none" width="100%" height="100%")
+								a.works__item-source(href="https://github.com/vadim-pos/urlaubsgluck/tree/master/app" target="_blank") Source Code
+				section.section.contact
+					ul.contact__list
+						li.contact__item
+							.contact__text Email:
+							a.contact__link(href="mailto:v.postanovkin@gmail.com" target="_blank") v.postanovkin@gmail.com
+						li.contact__item
+							.contact__text Skype:
+							a.contact__link(href="skype:live:bdf09afb5b0902e6?chat" target="_blank") Vadim Postanovkin
+						li.contact__item
+							.contact__text Github:
+							a.contact__link(href="https://github.com/vadim-pos/" target="_blank") github.com/vadim-pos

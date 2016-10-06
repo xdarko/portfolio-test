@@ -1,0 +1,20 @@
+.header {
+	padding: 10px 10px;
+	border-bottom: 2px solid #fff;
+}
+.header__title {
+	font-family: $akashi;
+	font-size: 60px;
+	line-height: 60px;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.header__sub {
+	padding-left: 10px;
+	font-family: $league-gothic;
+	font-size: 24px;
+	line-height: 24px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
